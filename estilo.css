@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --cor-primaria: #E74C3C;
+    --cor-secundaria: #FFD200;
+    --cor-terciaria: #2D3748;
+    --cor-quartenaria: #FFFFFF;
+    --letras: #000000;
+}
+.menu{
+    background-color: rgba(229, 229, 229, 0.7);
+    list-style: none;
+    display: flex;
+}
+.menu-item{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--letras);
+}
+.inscrever{
+    position: absolute;
+    text-decoration: none;
+    width: 126px;
+    height: 29px;
+    left: 832px;
+    top: 9px; 
+    color: var(--cor-quartenaria)
+}
