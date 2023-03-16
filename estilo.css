@@ -21,12 +21,19 @@
     text-decoration: none;
     color: var(--letras);
 }
+.menu-item:hover{
+    background-color: var(--cor-terciaria)
+}
 .inscrever{
     position: absolute;
     text-decoration: none;
-    width: 126px;
-    height: 29px;
-    left: 832px;
-    top: 9px; 
-    color: var(--cor-quartenaria)
+    padding: 10px;
+    color: var(--letras);
+}
+.cabecalho{
+    position: absolute;
+    height: 1920px;
+    width: 1080px;
+    background: no-repeat url(fundo_cabecalho.png);
+    background-size: 100%;
 }
