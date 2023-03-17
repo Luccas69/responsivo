@@ -32,8 +32,55 @@
 }
 .cabecalho{
     position: absolute;
-    height: 1920px;
-    width: 1080px;
+    height: 100vh;
+    width: 100vw;
     background: no-repeat url(fundo_cabecalho.png);
     background-size: 100%;
+
+}
+.titulo{
+    position: absolute;
+    width: 1920px;
+    height: 200px;  
+    left: 1px;
+    top: 70px;
+
+    background: rgba(255, 210, 0, 0.7);
+    
+}
+.titulo h1{
+
+    position: absolute;
+    width: 1847px;
+    height: 560px;
+    text-align: left;
+    top: 70px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: right;
+
+    color: var(--letras);
+}
+.data{
+
+    background: rgba(255, 210, 0, 0.7);
+
+    position: absolute;
+    width: 613px;
+    height: 138x;
+    left: 1191px;
+    top: 404px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 78px;
+    text-align: right;
+
+    color:var(--letras);
 }
