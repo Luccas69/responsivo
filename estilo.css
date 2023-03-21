@@ -83,15 +83,17 @@ ul {
     color: var(--letras);
 
 }
-.texto  {
-   
-position: absolute;
-width: 50vw;
-height: 6px;
-right: 0px;
-top: 613px;
-
-
-color: #000000;
+.texto{
+    position: absolute;
+    text-align: center;
+    width: 1500px;
+    height: 66px;
+    left: 125px;
+    top: 800px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
 
 }
