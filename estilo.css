@@ -85,15 +85,207 @@ ul {
 }
 .texto{
     position: absolute;
-    text-align: center;
+    text-align: justify;
     width: 1500px;
     height: 66px;
     left: 125px;
     top: 800px;
+
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
 
+}
+.titulo-programacao{
+    position: absolute;
+    text-align: justify;
+    width: 1500px;
+    top: 900px;
+    left: 122px;
+    font-size: 22px;
+    height: auto;
+    line-height: 30px;
+}
+.titulo-data{
+    position: absolute;
+    width: 1500px;
+    top: 950px;
+    left: 122px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+.mariana{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 122px;
+    top: 1020px;
+
+    background: url(mariana.silva.png);
+    border: 1px solid #2D3748;
+    border-radius: 100px;
+}
+.mariana h1{
+    position: absolute;
+    width: 241px;
+    height: 30px;
+    left: 100px;
+    top: 1x;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: var(--letras);
+}
+.mariana h2{
+    position: absolute;
+    width: 241px;
+    height: 30px;
+    left: 100px;
+    top: 33px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: var(--letras);
+}
+.mario{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 122px;
+    top: 1157px;
+
+    background: url(mario.oliveira.png);
+    border: 1px solid #2D3748;
+    border-radius: 100px;
+}
+.mario h1{
+    position: absolute;
+    width: 241px;
+    height: 30px;
+    left: 100px;
+    top: 1x;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: var(--letras);
+}
+.mario h2{
+    position: absolute;
+    width: 241px;
+    height: 30px;
+    left: 100px;
+    top: 33px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: var(--letras);
+}
+.titulo-data-2{
+    
+    position: absolute;
+    width: 86px;
+    height: 30px;
+    left: 122px;
+    top: 1294px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: var(--letras);
+}
+.jose{
+    box-sizing: border-box;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 122px;
+    top: 1341px;   
+    background: url(jose.silva.png);   
+    border: 1px solid #2D3748;
+    border-radius: 100px;   
+}
+.jose h1{
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    left: 100px;
+    top: 1x;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: var(--letras);
+}
+.jose h2{
+    position: absolute;
+    width: 241px;
+    height: 30px;
+    left: 100px;
+    top: 33px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: var(--letras);
+}
+.local{
+    position: absolute;
+    width: 118px;
+    height: 30px;
+    left: 122px;
+    top: 1511px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+.mapa{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 1552px;
+    background: no-repeat url(mapa.png);
+    background-size: 100%;
+}
+.rodape{
+position: absolute;
+width: 100vw;
+height: 200px;
+left: 0px;
+top: 2282px;
+
+background: rgba(45, 55, 72, 0.8);
 }
